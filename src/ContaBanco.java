@@ -7,6 +7,7 @@ public class ContaBanco {
     private boolean status;
 
     public void estadoAtual(){
+        System.out.println("------------------------------");
         System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo: " + this.getTipo());
         System.out.println("Dono: " + this.getDono());
@@ -18,12 +19,12 @@ public class ContaBanco {
     public void abrirConta(String t) {
         this.setTipo(t);
         this.setStatus(true); //metodos modificadores
-        if (t == "CC") {
+        if (t.equals("CC")) {
             this.setSaldo(50);
-        } else if (t == "CP") {
+        } else if (t.equals("CP")) {
             this.setSaldo(150);
         }
-        System.out.println("Conta aberta com sucesso!");
+        System.out.println("Conta aberta com sucesso, " + this.getDono());
     }
 
     public void fecharConta() {
