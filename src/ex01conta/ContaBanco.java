@@ -1,3 +1,5 @@
+package ex01conta;
+
 public class ContaBanco {
     //atributos
     public int numConta;

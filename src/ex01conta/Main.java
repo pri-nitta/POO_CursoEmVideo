@@ -1,3 +1,5 @@
+package ex01conta;
+
 public class Main {
     public static void main(String[] args) {
         ContaBanco p1 = new ContaBanco();
