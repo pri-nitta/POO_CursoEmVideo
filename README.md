@@ -1,4 +1,4 @@
-# POO Curso Em Video 🤓🖖
+# POO Curso Em Video 🖖🤓
 
 POO exercises using Java done during YouTube Curso em Video course.
 
