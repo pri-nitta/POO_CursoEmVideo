@@ -54,11 +54,11 @@ public class Lutador {
         return peso;
     }
 
-    public void setPeso(String pe) {
+    public void setPeso(float peso) {
         this.peso = peso;
         this.setCategoria();
     }
-
+//algo de errado não está certo aqui no categoria.
     public String getCategoria() {
         return categoria;
     }
