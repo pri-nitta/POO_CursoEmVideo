@@ -127,7 +127,7 @@ public class Lutador {
     }
 
     public void status() {
-        System.out.println(this.getNome() +" é um peso "+ this.getCategoria());
+        System.out.println(this.getNome() + " é um peso " + this.getCategoria());
         System.out.println(this.getVitorias() + " vitórias");
         System.out.println(this.getDerrotas() + " derrotas");
         System.out.println(this.getEmpates() + " empates");
